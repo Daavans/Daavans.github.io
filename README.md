@@ -1,42 +1,22 @@
-# The games' website
+# Games by Daavans
 
-What is published at https://daavans.github.io: a home page with a card for
-each game, a page per game, and each game's privacy policy (the address its
-Play Console listing asks for). The game repos are private, and GitHub
-Pages is free only for public repos, so these files are copied into the
-public repo `Daavans.github.io`. This folder is the whole site.
+Bright little games for your phone. This is the website:
+**[daavans.github.io](https://daavans.github.io)**
 
-| Page | Address |
+## The games
+
+| | |
 | --- | --- |
-| Home: all games | https://daavans.github.io |
-| ZAP! | https://daavans.github.io/zap.html |
-| ZAP!'s privacy policy | https://daavans.github.io/privacy.html |
-| Sports! | https://daavans.github.io/sports.html |
-| Sports!'s privacy policy | https://daavans.github.io/privacy_sports.html |
+| <img src="images/sports-icon.png" width="72" alt="Sports! icon"> | **[Sports!](https://daavans.github.io/sports.html)**<br>Real 1v1 matches with one thumb: curling, darts, golf, pool and more. |
+| <img src="images/zap-icon.png" width="72" alt="ZAP! icon"> | **[ZAP! Grandpa's Channel Chaos](https://daavans.github.io/zap.html)**<br>Zap through crazy TV channels in lightning-fast microgames. |
 
-Never move or rename a privacy policy once a Play listing points at it.
+Coming soon to Google Play.
 
-To publish or update: copy every file and the `images` folder (and the
-hidden `.nojekyll`) into the root of `Daavans.github.io`, replacing what is
-there, and commit.
+## Privacy
 
-## A new game
+- [Sports! privacy policy](https://daavans.github.io/privacy_sports.html)
+- [ZAP! privacy policy](https://daavans.github.io/privacy.html)
 
-1. Its icon (256 x 256) and banner (the Play feature graphic, as a JPEG) go
-   in `images/` as `<game>-icon.png` and `<game>-banner.jpg`.
-2. Copy `sports.html` to `<game>.html` and change the title, colours, lines
-   and links.
-3. Add a card for it to `index.html` (copy one of the others).
-4. Its privacy policy: `privacy_<game>.html`, like `privacy_sports.html`.
+## Contact
 
-When a game handles data in a new way, update its policy (and the date)
-before that version is released.
-
-## app-ads.txt
-
-AdMob looks for it at the root of the developer website given in the Play
-listing (https://daavans.github.io). `app-ads.txt` here has the one line
-for the AdMob account (publisher id pub-3894280280230032, the number in
-the apps' AdMob ids), for every game in it:
-
-    google.com, pub-3894280280230032, DIRECT, f08c47fec0942fa0
+Questions or feedback? Email [daan.urnicker@gmail.com](mailto:daan.urnicker@gmail.com).
