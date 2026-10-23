@@ -32,10 +32,11 @@ there, and commit.
 When a game handles data in a new way, update its policy (and the date)
 before that version is released.
 
-## app-ads.txt (once there is an AdMob account)
+## app-ads.txt
 
 AdMob looks for it at the root of the developer website given in the Play
-listing (https://daavans.github.io). One line, with the publisher id from
-AdMob (Settings, Account information):
+listing (https://daavans.github.io). `app-ads.txt` here has the one line
+for the AdMob account (publisher id pub-3894280280230032, the number in
+the apps' AdMob ids), for every game in it:
 
-    google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
+    google.com, pub-3894280280230032, DIRECT, f08c47fec0942fa0
